@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="pokemon-css.css">  -->
+    <link rel="stylesheet" href="pokedexCSS.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="container">
+        <div id="pokedex">
+            <div id="pokemon-number">
+                <!-- Pokemon Number here -->Number
+            </div>
+            <div id="pokemon-bg">
+                <img id="pokemon-image"><!-- <img class="pokemon-picture" src="0001Bulbasaur.png"> -->
+            </div>
+            <div id="pokemon-name">
+                <!-- Name Here -->Name
+            </div>
+            <div id="pokemon-classification">
+                Seed Pokemon
+            </div>              
+            <div id="pokemon-type">
+                <div id="grassType">Grass</div>
+                <div id="poisonType">Poison</div>
+            </div>
+            <div id="pokemon-abilities">
+                <div style="margin: auto 50px;">
+                    <span style="margin:20px;">Abilities</span>
+                    <span style="margin:7px;">Hidden Abilities</span>
+                </div>
+                <div id="abilities" class="abilities-Grass">
+                    <span id="ability" style="width:50px;"></span>
+                    <span id="hidden-ability"></span>
+                </div>
+            </div>
+            <div class="pokemon-appearance">
+                <div id="pokemon-weight"></div>
+                <div id="pokemon-height"></div>
+            </div>
+            <div class="baseStats">
+                <span>Base Stats</span>
+                <table>
+                    <tr>
+                        <th class="hp-style">HP</td>
+                        <td id="pokemon-hp">
+
+                        </td>
+                            <!-- Pokemon HP here -->
+                    </tr>
+                    <tr>
+                        <th class="atk-style">ATK</th>
+                        <td id="pokemon-atk">
+                            <!-- Pokemon Attack Here -->50
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="def-style">DEF</th>
+                        <td id="pokemon-def">
+                            <!-- Pokemon Defense Here -->50
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="spd-style">SPD</th>
+                        <td id="pokemon-spd">
+                            <!-- Pokemon Speed Here -->50
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="exp-style">EXP</th>
+                        <td id="pokemon-exp">
+                            <!-- Pokemon Exp here -->50
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div>
+        <button id="Prev"><i class="fa-solid fa-arrow-left-long"></i></button>
+        <button id="Next"><i class="fa-solid fa-arrow-right-long"></i></button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
