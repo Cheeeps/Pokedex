@@ -87,7 +87,7 @@ const pokemonName = [           // Name, Number, Weight, Height, Types, Category
     ["Doduo", "0084", "39.2", "1.4", ["Normal", "Flying"], "Twin Bird", "Run Away or Early Bird", "Tangled Feet", "35", "85", "45", "75", ""],
     ["Dodrio", "0085", "85.2", "1.8", ["Normal", "Flying"], "Triple Bird", "Run Away or Early Bird", "Tangled Feet", "60", "110", "70", "100", ""],
     ["Seel", "0086", "90.0", "1.1", ["Water"], "Sea Lion", "Thick Fat or Hydration", "Ice Body", "65", "45", "55", "45", ""],
-    ["Dewgong", "0087", "120.0", "1.7", ["Water", "Ice"], "Thick Fat or Hydration", "Ice Body", "90", "70", "80", "70", "", ""],
+    ["Dewgong", "0087", "120.0", "1.7", ["Water", "Ice"],"Sea Lion", "Thick Fat or Hydration", "Ice Body", "90", "70", "80", "70", ""],
     ["Grimer", "0088", "30.0", "0.9", ["Poison"], "Sludge", "Stench or Sticky Hold", "Poison Touch", "80", "80", "50", "25", ""],
     ["Muk", "0089", "30.0", "1.2", ["Poison"], "Sludge", "Stench or Sticky Hold", "Poison Touch", "105", "105", "75", "50", ""],
     ["Shellder", "0090", "4.0", "0.3", ["Water"], "Bivalve", "Shell Armor or Skill Link", "Overcoat", "30", "65", "100", "40", ""],
@@ -643,7 +643,6 @@ let updateUI = function() {
     pokemonDef.textContent = currentPokemon[10];
     pokemonSpd.textContent = currentPokemon[11];
 
-
     let typeGenerator = () => {
         if(currentPokemon[4].length == 2){
             if(currentPokemon[4][0] == "Grass" && currentPokemon[4][1] == "Poison"){
@@ -883,7 +882,3 @@ const buttonPrev = document.querySelector("#Prev");
     });
 
 updateUI();
-
-
-
-
