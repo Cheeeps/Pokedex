@@ -61,6 +61,72 @@ const pokemonName = [           // Name, Number, Weight, Height, Types, Category
     ["Growlithe", "0058", "19.0", "0.7", ["Fire"], "Puppy", "Iintimidate or Flash Fire", "Justified", "55", "70", "45", "60", ""],
     ["Arcanine", "0059", "155.0", "1.9", ["Fire"], "Legendary", "Intimidate or Flash Fire", "Justified", "90", "110", "80", "95", ""],
     ["Poliwag", "0060", "12.4", "0.6", ["Water"], "Tadpole", "Water Absorb or Damp", "Swift Swim", "40", "50", "40", "90", ""],
+    ["Poliwhirl", "0061", "20.0", "1.0", ["Water"], "Tadpole", "Water Absorb or Damp", "Swift Swim", "65", "65", "65", "90", ""],
+    ["Poliwrath", "0062", "54.0", "1.3", ["Water", "Fighting"], "Tadpole", "Water Absorb or Damp", "Swift Swim", "90", "85", "95", "70", ""],
+    ["Abra", "0063", "19.5", "0.9", ["Psychic"], "Psi", "Synchronize or Inner Focus", "Magic Guard", "25", "20", "15", "90", ""],
+    ["Kadabra", "0064", "56.5", "1.3", ["Psychic"], "Psi", "Synchronize or Inner Focus", "Magic Guard", "40", "35", "30", "105", ""],
+    ["Alakazam", "0065", "48.0", "1.5", ["Psychic"], "Psi", "Synchronize or Inner Focus", "Magic Guard", "55", "50", "45", "120", ""],
+    ["Machop", "0066", "19.5", "0.8", ["Fighting"], "Superpower", "Guts or No Guard", "Steadfast", "70", "80", "50", "35", ""],
+    ["Machocke", "0067", "70.5", "1.5", ["Fighting"], "Superpower", "Guts or No Guard", "Steadfast", "80", "100", "70", "45", ""],
+    ["Machamp", "0068", "130.0", "1.6", ["Fighting"], "Superpower", "Guts or No Guard", "Steadfast", "90", "130", "80", "55", ""],
+    ["Bellsprout", "0069", "4.0", "0.7", ["Grass", "Poison"], "Flower", "Chlorophyll", "Gluttony", "50", "75", "35", "40", ""],
+    ["Weepinbell", "0070", "6.4", "1.0", ["Grass", "Poison"], "Flycatcher", "Chlorophyll", "Gluttony", "65", "90", "50", "55", ""],
+    ["Victreebel", "0071", "15.5", "1.7", ["Grass", "Poison"], "Flycatcher", "Chlorophyll", "Gluttony", "80", "105", "65", "70", ""],
+    ["Tentacool", "0072", "45.5", "0.9", ["Water", "Poison"], "Jellyfish", "Clear Body or Liquid Ooze", "Rain Dish", "40", "40", "35", "70", ""],
+    ["Tentacruel", "0073", "55.0", "1.6", ["Water", "Poison"], "Jellyfish", "Clear Body or Liquid OOze", "Rain Dish", "80", "70", "65", "100", ""],
+    ["Geodude", "0074", "20.0", "0.4", ["Rock", "Ground"], "Rock", "Rock Head or Sturdy", "Sand Veil", "40", "80", "100", "20", ""], 
+    ["Graveler", "0075", "105.0", "1.0", ["Rock", "Ground"], "Rock", "Rock Head or Sturdy", "Sand Veil", "55", "95", "115", "35", ""],
+    ["Golem", "0076", "300.0", "1.4", ["Rock", "Ground"], "Megaton", "Rock Head or Sturdy", "Sand Veil", "80", "110", "130", "45", ""],
+    ["Ponyta", "0077", "30.0", "1.0", ["Fire"], "Fire Horse", "Run Away or Flash Fire", "Flame Body", "50", "85", "55", "90", ""],
+    ["Rapidash", "0078", "95.0", "1.7", ["Fire"], "Fire Horse", "Run Away or Flash Fire", "Flame Body", "65", "100", "70", "105", ""],
+    ["Slowpoke", "0079", "36.0", "1.2", ["Water", "Psychic"], "Dopey", "Oblivious or Own Tempo", "Regenerator", "90", "65", "65", "15", ""],
+    ["Slowbro", "0080", "78.5", "1.6", ["Water", "Psychic"], "Hermit Crab", "Oblivious or Own Tempo", "Regenerator", "95", "75", "180", "30", ""],
+    ["Magnemite", "0081", "6.0", "0.3", ["Electric", "Steel"], "Magnet", "Magnet Pull or Sturdy", "Analytic", "25", "35", "70", "45", ""],
+    ["Magneton", "0082", "60.0", "1.0", ["Electric", "Steel"], "Magnet", "Magnet Pull or Sturdy", "Analytic", "50", "60", "95", "70", ""],
+    ["Farfetch'd", "0083", "15.0", "0.8", ["Normal", "Flying"], "Wild Duck", "Keen Eye or Inner Focus", "Defiant", "52", "65", "55", "60", ""],
+    ["Doduo", "0084", "39.2", "1.4", ["Normal", "Flying"], "Twin Bird", "Run Away or Early Bird", "Tangled Feet", "35", "85", "45", "75", ""],
+    ["Dodrio", "0085", "85.2", "1.8", ["Normal", "Flying"], "Triple Bird", "Run Away or Early Bird", "Tangled Feet", "60", "110", "70", "100", ""],
+    ["Seel", "0086", "90.0", "1.1", ["Water"], "Sea Lion", "Thick Fat or Hydration", "Ice Body", "65", "45", "55", "45", ""],
+    ["Dewgong", "0087", "120.0", "1.7", ["Water", "Ice"], "Thick Fat or Hydration", "Ice Body", "90", "70", "80", "70", "", ""],
+    ["Grimer", "0088", "30.0", "0.9", ["Poison"], "Sludge", "Stench or Sticky Hold", "Poison Touch", "80", "80", "50", "25", ""],
+    ["Muk", "0089", "30.0", "1.2", ["Poison"], "Sludge", "Stench or Sticky Hold", "Poison Touch", "105", "105", "75", "50", ""],
+    ["Shellder", "0090", "4.0", "0.3", ["Water"], "Bivalve", "Shell Armor or Skill Link", "Overcoat", "30", "65", "100", "40", ""],
+    ["Cloyster", "0091", "132.5", "1.5", ["Water", "Ice"], "Bivalve", "Shell Armor or Skill Link", "Overcoat", "50", "95", "180", "70", ""],
+    ["Gastly", "0092", "0.1", "1.3", ["Ghost", "Poison"], "Gas", "Levitate", "-------", "30", "35", "30", "80", ""],
+    ["Haunter", "0093", "0.1", "1.6", ["Ghost", "Poison"], "Gas", "Levitate", "-------", "45", "50", "45", "95", ""],
+    ["Gengar", "0094", "40.5", "1.5", ["Ghost", "Poison"], "Shadow", "Levitate or Curse Body", "-------", "60", "65", "60", "110", ""],
+    ["Onix", "0095", "210.0", "8.8", ["Rock", "Ground"], "Rock Snake", "Rock Head or Sturdy", "Weak Armor", "35", "45", "160", "70", ""],
+    ["Drowzee", "0096", "32.4", "1.0", ["Psychic"], "Hypnosis", "Insomnia or Forewarn", "Inner Focus", "60", "48", "45", "42", ""],
+    ["Hypno", "0097", "75.6", "1.6", ["Psychic"], "Hypnosic", "Insomnia or Forewarn", "Inner Focus", "85", "73", "70", "67", ""],
+    ["Krabby", "0098", "6.5", "0.4", ["Water"], "River Crab", "Hyper Cutter or Shell Armor", "Sheer Force", "30", "105", "90", "50", ""],
+    ["Kingler", "0099", "60.0", "1.3", ["Water"], "Pincer", "Hyper Cutter or Shell Armor", "Sheer Force", "55", "130", "115", "75", ""],
+    ["Voltorb", "0100", "10.4", "0.5", ["Electric"], "Ball", "Soundproof or Static", "Aftermath", "40", "30", "50", "100", ""],
+    ["Electrode", "0101", "66.6", "1.2", ["Electric"], "Ball", "Soundproof or Static", "Aftermath", "60", "50", "70", "150", ""],
+    ["Exeggcute", "0102", "2.5", "0.4", ["Grass", "Psychic"], "Egg", "Chlorophyll", "Harvest", "60", "40", "80", "40", ""],
+    ["Exeggutor", "0103", "120.0", "2.0", ["Grass", "Psychic"], "Coconut", "Chlorophyll", "Harvest", "95", "95", "85", "55", ""],
+    ["Cubone", "0104", "6.5", "0.4", ["Ground"], "Lonely", "Rock Head or Lightning Rod", "Battle Armor", "50", "50", "95", "35", ""],
+    ["Marowak", "0105", "45.0", "1.0", ["Ground"], "Bone Keeper", "Rock Head or Lightning Rod", "Battle Armor", "60", "80", "110", "45", ""],
+    ["Hitmonlee", "0106", "49.8", "1.5", ["Fighting"], "Kicking", "Limber or Reckless", "Unburden", "50", "120", "53", "87", ""],
+    ["Hitmonchan", "0107", "50.2", "1.4", ["Fighting"], "Punching", "Keen Eye or Iron Fist", "Inner Focus", "50", "105", "79", "76", ""],
+    ["Lickitung", "0108", "65.5", "1.2", ["Normal"], "Licking", "Own Tempo or Oblivious", "Cloud Nine", "90", "55", "75", "30", ""],
+    ["Koffing", "0109", "1.0", "0.6", ["Poison"], "Poison Gas", "Levitate or Neutralizing Gas", "Stench", "40", "65", "95", "35", ""],
+    ["Weezing", "0110", "9.5", "1.2", ["Poison"], "Poison Gas", "Levitating or Neutralizing Gas", "Stench", "65", "90", "120", "60", ""],
+    ["Ryhorn", "0111", "115.0", "1.0", ["Ground", "Rock"], "Spikes", "Lightning Rod or Rock Head", "Reckless", "80", "85", "95", "25", ""],
+    ["Rhydon", "0112", "120.0", "1.9", ["Ground", "Rock"], "Drill", "Lighting Rod or Rock Head", "Reckless", "105", "130", "120", "40", ""],
+    ["Chansey", "0113", "34.6", "1.1", ["Normal"], "Egg", "Natural Cure or Serene Grace", "Healer", "250", "5", "5", "50", ""],
+    ["Tangela", "0114", "35.0", "1.0", ["Grass"], "Vine", "Chlorophyll or Leaf Guard", "Regenerator", "65", "55", "115", "60", ""],
+    ["Kangaskhan", "0115", "80.0", "2.2", ["Normal"], "Parent", "Early Bird or Scrappy", "Inner Focus", "105", "95", "80", "90", ""],
+    ["Horsea", "0116", "8.0", "0.4", ["Water"], "Dragon", "Swift Swim or Sniper", "Damp", "30", "40", "70", "60", ""],
+    ["Seadra", "0117", "25.0", "1.2", ["Water"], "Dragon", "Poison Point or Sniper", "Damp", "55", "65", "95", "85", ""],
+    ["Goldeen", "0118", "15.0", "0.6", ["Water"], "Goldfish", "Swift Swim or Water Veil", "Lightning Rod", "45", "67", "60", "63", ""],
+    ["Seaking", "0119", "39.0", "1.3", ["Water"], "Goldfish", "Swift Swim or Water Veil", "Lightning Rod", "80", "92", "65", "68", ""],
+    ["Staryu", "0120", "34.5", "0.8", ["Water"], "Star Shape", "Illuminate or Natural Cure", "Analytic", "30", "45", "55", "85", ""],
+    ["Starmie", "0121", "80.0", "1.1", ["Water", "Psychic"], "Mysterious", "Illuminate or Natural Cure", "Analytic", "60", "75", "85", "115", ""],
+    ["Mr. Mime", "0122", "54.5", "1.3", ["Psychic", "Fairy"], "Barrier", "Soundproof or Filter", "Technician", "40", "45", "65", "90", ""],
+    ["Scyther", "0123", "56.0", "1.5", ["Bug", "Flying"], "Mantis", "Swarm or Technician", "Steadfast", "70", "110", "80", "105", ""],
+    ["Jynx", "0124", "40.6", "1.4", ["Ice", "Psychic"], "Human Shape", "Oblivious or Forewarn", "Dry Skin", "65", "50", "35", "95", ""],
+    ["Electabuzz", "0125", "30.0", "1.1", ["Electric"], "Electric", "Static", "Vital Spirit", "65", "83", "57", "105", ""],
+    ["Magmar", "0126", "44.5", "1.3", ["Fire"], "Spitfire", "Flame Body", "Vital Spirit", "65", "95", "57", "93", ""],
 ]
 // ["", "", "", "", ["", ""], "", "", "", "", "", "", "", ""],
 // ["", "", "", "", [""], "", "", "", "", "", "", "", ""],
@@ -128,7 +194,72 @@ const images = [
     '0058Growlithe.png',
     '0059Arcanine.png',
     '0060Poliwag.png',
-
+    '0061Poliwhirl.png',
+    '0062Poliwrath.png',
+    '0063Abra.png',
+    '0064Kadabra.png',
+    '0065Alakazam.png',
+    '0066Machop.png',
+    '0067Machoke.png',
+    '0068Machamp.png',
+    '0069Bellsprout.png',
+    '0070Weepinbell.png',
+    '0071Victreebel.png',
+    '0072Tentacool.png',
+    '0073Tentacruel.png',
+    '0074Geodude.png',
+    '0075Graveler.png',
+    '0076Golem.png',
+    '0077Ponyta.png',
+    '0078Rapidash.png',
+    '0079Slowpoke.png',
+    '0080Slowbro.png',
+    '0081Magnemite.png',
+    '0082Magneton.png',
+    '0083Farfetchd.png',
+    '0084Doduo.png',
+    '0085Dodrio.png',
+    '0086Seel.png',
+    '0087Dewgong.png',
+    '0088Grimer.png',
+    '0089Muk.png',
+    '0090Shellder.png',
+    '0091Cloyster.png',
+    '0092Gastly.png',
+    '0093Haunter.png',
+    '0094Gengar.png',
+    '0095Onix.png',
+    '0096Drowzee.png',
+    '0097Hypno.png',
+    '0098Krabby.png',
+    '0099Kingler.png',
+    '0100voltorb.png',
+    '0101Electrode.png',
+    '0102Exeggcute.png',
+    '0103exeggutor.png',
+    '0104Cubone.png',
+    '0105Marowak.png',
+    '0106Hitmonlee.png',
+    '0107Hitmonchan.png',
+    '0108Lickitung.png',
+    '0109Koffing.png',
+    '0110Weezing.png',
+    '0111Rhyhorn.png',
+    '0112Rhydon.png',
+    '0113Chansey.png',
+    '0114Tangela.png',
+    '0115Kangaskhan.png',
+    '0116Horsea.png',
+    '0117Seadra.png',
+    '0118Goldeen.png',
+    '0119Seaking.png',
+    '0120Staryu.png',
+    '0121Starmie.png',
+    '0122Mr._Mime.png',
+    '0123Scyther.png',
+    '0124Jynx.png',
+    '0125Electabuzz.png',
+    '0126Magmar.png'
 ];
 
 function createBugType() {
@@ -571,6 +702,83 @@ let updateUI = function() {
                 backgroundTypeRemove();
                 backgroundPoison();
             }
+            if(currentPokemon[4][0] == "Water" && currentPokemon[4][1] == "Poison"){
+                removeAllTypes();
+                createWaterType();
+                createPoisonType();
+                backgroundTypeRemove();
+                backgroundWater();
+            }
+            if(currentPokemon[4][0] == "Rock" && currentPokemon[4][1] == "Ground"){
+                removeAllTypes();
+                createRockType();
+                createGroundType();
+                backgroundTypeRemove();
+                backgroundRock();
+            }
+            if(currentPokemon[4][0] == "Water" && currentPokemon[4][1] == "Psychic"){
+                removeAllTypes();
+                createWaterType();
+                createPsychicType();
+                backgroundTypeRemove();
+                backgroundWater();
+            }
+            if(currentPokemon[4][0] == "Electric" && currentPokemon[4][1] == "Steel"){
+                removeAllTypes();
+                createElectricType();
+                createSteelType();
+                backgroundTypeRemove();
+                backgroundElectric();
+            }
+            if(currentPokemon[4][0] == "Water" && currentPokemon[4][1] == "Ice"){
+                removeAllTypes();
+                createWaterType();
+                createIceType();
+                backgroundTypeRemove();
+                backgroundWater();
+            }
+            if(currentPokemon[4][0] == "Ghost" && currentPokemon[4][1] == "Poison"){
+                removeAllTypes();
+                createGhostType();
+                createPoisonType();
+                backgroundTypeRemove();
+                backgroundGhost();
+            }
+            if(currentPokemon[4][0] == "Grass" && currentPokemon[4][1] == "Psychic"){
+                removeAllTypes();
+                createGrassType();
+                createPsychicType();
+                backgroundTypeRemove();
+                backgroundGrass();
+            }
+            if(currentPokemon[4][0] == "Water" && currentPokemon[4][1] == "Psychic"){
+                removeAllTypes();
+                createWaterType();
+                createPsychicType();
+                backgroundTypeRemove();
+                backgroundWater();
+            }
+            if(currentPokemon[4][0] == "Psychic" && currentPokemon[4][1] == "Fairy"){
+                removeAllTypes();
+                createPsychicType();
+                createFairyType();
+                backgroundTypeRemove();
+                backgroundPsychic();
+            }
+            if(currentPokemon[4][0] == "Ice" && currentPokemon[4][1] == "Psychic"){
+                removeAllTypes();
+                createIceType();
+                createPsychicType();
+                backgroundTypeRemove();
+                backgroundIce();
+            }
+            if(currentPokemon[4][0] == "Ground" && currentPokemon[4][1] == "Rock"){
+                removeAllTypes();
+                createGroundType();
+                createRockType();
+                backgroundTypeRemove();
+                backgroundGround();
+            }
             
             
         } else if (currentPokemon[4].length == 1){
@@ -633,11 +841,18 @@ let updateUI = function() {
                 createGroundType();
                 backgroundTypeRemove();
                 backgroundGround();
-            }if(currentPokemon[4].includes("Fighting")){
+            }
+            if(currentPokemon[4].includes("Fighting")){
                 removeAllTypes();
                 createFightingType();
                 backgroundTypeRemove();
                 backgroundFighting();
+            }
+            if(currentPokemon[4].includes("Psychic")){
+                removeAllTypes();
+                createPsychicType();
+                backgroundTypeRemove();
+                backgroundPsychic();
             }
         }
     }
