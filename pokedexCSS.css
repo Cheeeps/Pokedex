@@ -237,7 +237,7 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 8x;
+    padding-top: 8px;
 }
 .abilities-Steel{
     height: 20px;
@@ -314,7 +314,7 @@ body{
     background-color: #f8d038;
 }
 #iceType{
-    padding: 0 40px;
+    padding: 0 25px;
     border: 1px solid #98d8d8;
     border-radius: 20px;
     background-color: #98d8d8;
@@ -344,19 +344,19 @@ body{
     background-color: #a890f0;
 }
 #psychicType{
-    padding: 0 20px;
+    padding: 0 15px;
     border: 1px solid #f85888;
     border-radius: 20px;
     background-color: #f85888;
 }
 #bugType{
-    padding: 0 30px;
+    padding: 0 25px;
     border: 1px solid #a8b820;
     border-radius: 20px;
     background-color: #a8b820;
 }
 #rockType{
-    padding: 0 30px;
+    padding: 0 25px;
     border: 1px solid #b8a038;
     border-radius: 20px;
     background-color: #b8a038;
@@ -679,7 +679,7 @@ body{
         border-radius: 20px;
         display: flex;
         justify-content: space-evenly;
-        padding-top: 8x;
+        padding-top: 8px;
     }
     .abilities-Steel{
         height: 20px;
@@ -756,7 +756,7 @@ body{
         background-color: #f8d038;
     }
     #iceType{
-        padding: 0 40px;
+        padding: 0 25px;
         border: 1px solid #98d8d8;
         border-radius: 20px;
         background-color: #98d8d8;
@@ -786,19 +786,19 @@ body{
         background-color: #a890f0;
     }
     #psychicType{
-        padding: 0 20px;
+        padding: 0 15px;
         border: 1px solid #f85888;
         border-radius: 20px;
         background-color: #f85888;
     }
     #bugType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #a8b820;
         border-radius: 20px;
         background-color: #a8b820;
     }
     #rockType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #b8a038;
         border-radius: 20px;
         background-color: #b8a038;
@@ -1128,7 +1128,7 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 8x;
+    padding-top: 8px;
 }
 .abilities-Steel{
     height: 20px;
@@ -1205,7 +1205,7 @@ body{
     background-color: #f8d038;
 }
 #iceType{
-    padding: 0 40px;
+    padding: 0 25px;
     border: 1px solid #98d8d8;
     border-radius: 20px;
     background-color: #98d8d8;
@@ -1235,19 +1235,19 @@ body{
     background-color: #a890f0;
 }
 #psychicType{
-    padding: 0 20px;
+    padding: 0 15px;
     border: 1px solid #f85888;
     border-radius: 20px;
     background-color: #f85888;
 }
 #bugType{
-    padding: 0 30px;
+    padding: 0 25px;
     border: 1px solid #a8b820;
     border-radius: 20px;
     background-color: #a8b820;
 }
 #rockType{
-    padding: 0 30px;
+    padding: 0 25px;
     border: 1px solid #b8a038;
     border-radius: 20px;
     background-color: #b8a038;
@@ -1578,7 +1578,7 @@ body{
         border-radius: 20px;
         display: flex;
         justify-content: space-evenly;
-        padding-top: 8x;
+        padding-top: 8px;
     }
     .abilities-Steel{
         height: 20px;
@@ -1655,7 +1655,7 @@ body{
         background-color: #f8d038;
     }
     #iceType{
-        padding: 0 40px;
+        padding: 0 25px;
         border: 1px solid #98d8d8;
         border-radius: 20px;
         background-color: #98d8d8;
@@ -1685,19 +1685,19 @@ body{
         background-color: #a890f0;
     }
     #psychicType{
-        padding: 0 20px;
+        padding: 0 15px;
         border: 1px solid #f85888;
         border-radius: 20px;
         background-color: #f85888;
     }
     #bugType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #a8b820;
         border-radius: 20px;
         background-color: #a8b820;
     }
     #rockType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #b8a038;
         border-radius: 20px;
         background-color: #b8a038;
@@ -2025,7 +2025,7 @@ body{
         border-radius: 20px;
         display: flex;
         justify-content: space-evenly;
-        padding-top: 8x;
+        padding-top: 8px;
     }
     .abilities-Steel{
         height: 20px;
@@ -2102,7 +2102,7 @@ body{
         background-color: #f8d038;
     }
     #iceType{
-        padding: 0 40px;
+        padding: 0 25px;
         border: 1px solid #98d8d8;
         border-radius: 20px;
         background-color: #98d8d8;
@@ -2132,19 +2132,19 @@ body{
         background-color: #a890f0;
     }
     #psychicType{
-        padding: 0 20px;
+        padding: 0 15px;
         border: 1px solid #f85888;
         border-radius: 20px;
         background-color: #f85888;
     }
     #bugType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #a8b820;
         border-radius: 20px;
         background-color: #a8b820;
     }
     #rockType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #b8a038;
         border-radius: 20px;
         background-color: #b8a038;
@@ -2549,7 +2549,7 @@ body{
         background-color: #f8d038;
     }
     #iceType{
-        padding: 0 40px;
+        padding: 0 25px;
         border: 1px solid #98d8d8;
         border-radius: 20px;
         background-color: #98d8d8;
@@ -2579,19 +2579,19 @@ body{
         background-color: #a890f0;
     }
     #psychicType{
-        padding: 0 20px;
+        padding: 0 15px;
         border: 1px solid #f85888;
         border-radius: 20px;
         background-color: #f85888;
     }
     #bugType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #a8b820;
         border-radius: 20px;
         background-color: #a8b820;
     }
     #rockType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #b8a038;
         border-radius: 20px;
         background-color: #b8a038;
@@ -2994,7 +2994,7 @@ body{
         background-color: #f8d038;
     }
     #iceType{
-        padding: 0 40px;
+        padding: 0 25px;
         border: 1px solid #98d8d8;
         border-radius: 20px;
         background-color: #98d8d8;
@@ -3024,19 +3024,19 @@ body{
         background-color: #a890f0;
     }
     #psychicType{
-        padding: 0 20px;
+        padding: 0 15px;
         border: 1px solid #f85888;
         border-radius: 20px;
         background-color: #f85888;
     }
     #bugType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #a8b820;
         border-radius: 20px;
         background-color: #a8b820;
     }
     #rockType{
-        padding: 0 30px;
+        padding: 0 25px;
         border: 1px solid #b8a038;
         border-radius: 20px;
         background-color: #b8a038;
@@ -3139,5 +3139,3 @@ body{
       content: "XXL";
     }
   }
-
-  
