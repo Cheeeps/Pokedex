@@ -127,6 +127,32 @@ const pokemonName = [           // Name, Number, Weight, Height, Types, Category
     ["Jynx", "0124", "40.6", "1.4", ["Ice", "Psychic"], "Human Shape", "Oblivious or Forewarn", "Dry Skin", "65", "50", "35", "95", ""],
     ["Electabuzz", "0125", "30.0", "1.1", ["Electric"], "Electric", "Static", "Vital Spirit", "65", "83", "57", "105", ""],
     ["Magmar", "0126", "44.5", "1.3", ["Fire"], "Spitfire", "Flame Body", "Vital Spirit", "65", "95", "57", "93", ""],
+    ["Pinsir", "0127", "55.0", "1.5", ["Bug"],"Stag Beetle", "Hyper Cutter or Mold Breaker", "Moxie", "65", "125", "100", "85", ""],
+    ["Tauros", "0128", "88.4", "1.4", ["Normal"], "Wild Bull", "Intimidate or Anger Point", "Sheer Force", "75", "100", "95", "110", ""],
+    ["Magikarp", "0129", "10.0", "0.9", ["Water"], "Fish", "Swift Swim", "Rattled", "20", "10", "55", "80", ""],
+    ["Gyarados", "0130", "235.0", "6.5", ["Water", "Flying"], "Atrocious", "Intimidate", "Moxie", "95", "125", "79", "81", ""],
+    ["Lapras", "0131", "220.0", "2.5", ["Water", "Ice"], "Transport", "Water Absorb or Shell Armor", "Hydration", "130", "85", "80", "60", ""],
+    ["Ditto", "0132", "4.0", "0.3", ["Normal"], "Transform", "Limber", "Imposter", "48", "48", "48", "48", ""],
+    ["Eevee", "0133", "6.5", "0.3", ["Normal"], "Evolution", "Run Away or Adaptability", "Anticipation", "55", "55", "50", "55", ""],
+    ["Vaporeon", "0134", "29.0", "1.0", ["Water"], "Bubble Jet", "Water Absorb", "Hydration", "130", "65", "60", "65", ""],
+    ["Jolteon", "0135", "24.5", "0.8", ["Electric"], "Lightning", "Volt Absorb", "Quick Feet", "65", "65", "60", "130", ""],
+    ["Flareon", "0136", "25.0", "0.9", ["Fire"], "Flame", "Flash Fire", "Guts", "65", "130", "60", "65", ""],
+    ["Porygon", "0137", "36.5", "0.8", ["Normal"], "Virtual", "Trace or Download", "Analytic", "65", "60", "70", "40", ""],
+    ["Omanyte", "0138", "7.5", "0.4", ["Rock", "Water"], "Spiral", "Swift Swim or Shell Armor", "Weak Armor", "35", "40", "100", "35", ""],
+    ["Omastar", "0139", "35.0", "1.0", ["Rock", "Water"], "Spiral", "Swift Swim or Shell Armor", "weak Armor", "70", "60", "125", "55", ""],
+    ["Kabuto", "0140", "11.5", "0.5", ["Rock", "Water"], "Shellfish", "Swift Swim or Battle Armor", "Weak Armor", "30", "80", "90", "55", ""],
+    ["Kabutops", "0141", "40.5", "1.3", ["Rock", "Water"], "Shellfish", "Swift Swim or Battle Armor", "Weak Armor", "60", "115", "105", "80", ""],
+    ["Aerodactyle", "0142", "59.0", "1.8", ["Rock", "Flying"], "Fossil", "Rock Head or Pressure", "Unnerve", "80", "105", "65", "130", ""],
+    ["Snorlax", "0143", "460.0", "2.1", ["Normal"], "Sleeping", "Immunity or Thick Fat", "Gluttony", "160", "110", "65", "30", ""],
+    ["Articuno", "0144", "55.4", "1.7", ["Ice", "Flying"], "Freeze", "Pressure", "Snow Cloak", "90", "85", "100", "85", ""],
+    ["Zapdos", "0145", "52.6", "1.6", ["Electric", "Flying"], "Electric", "Pressure", "Static", "90", "90", "85", "100", ""],
+    ["Moltres", "0146", "60.0", "2.0", ["Fire", "Flying"], "Flame", "Pressure", "Flame Body", "90", "100", "90", "90", ""],
+    ["Dratini", "0147", "3.3", "1.8", ["Dragon"], "Dragon", "Shed Skin", "Marvel Scale", "41", "64", "45", "50", ""],
+    ["Dragonair", "0148", "16.5", "4.0", ["Dragon"], "Dragon", "Shed Skin", "Marvel Scale", "61", "84", "65", "70", ""],
+    ["Dragonite", "0149", "210.0", "2.2", ["Dragon", "Flying"], "Dragon", "Inner Focus", "Multiscale", "91", "134", "95", "80", ""],
+    ["Mewtwo", "0150", "122.0", "2.0", ["Psychic"], "Genetic", "Pressure", "Unnerve", "106", "110", "90", "130", ""],
+    ["Mew", "0151", "4.0", "0.4", ["Psychic"], "New Species", "Synchronize", "-------", "100", "100", "100", "100", ""],
+
 ]
 // ["", "", "", "", ["", ""], "", "", "", "", "", "", "", ""],
 // ["", "", "", "", [""], "", "", "", "", "", "", "", ""],
@@ -259,7 +285,32 @@ const images = [
     '0123Scyther.png',
     '0124Jynx.png',
     '0125Electabuzz.png',
-    '0126Magmar.png'
+    '0126Magmar.png',
+    '0127Pinsir.png',
+    '0128Tauros.png',
+    '0129Magikarp.png',
+    '0130Gyarados.png',
+    '0131Lapras.png',
+    '0132Ditto.png',
+    '0133Eevee.png',
+    '0134Vaporeon.png',
+    '0135Jolteon.png',
+    '0136Flareon.png',
+    '0137Porygon.png',
+    '0138Omanyte.png',
+    '0139Omastar.png',
+    '0140Kabuto.png',
+    '0141Kabutops.png',
+    '0142Aerodactyl.png',
+    '0143Snorlax.png',
+    '0144Articuno.png',
+    '0145Zapdos.png',
+    '0146Moltres.png',
+    '0147Dratini.png',
+    '0148Dragonair.png',
+    '0149Dragonite.png',
+    '0150Mewtwo.png',
+    '0151Mew.png'
 ];
 
 function createBugType() {
@@ -643,6 +694,7 @@ let updateUI = function() {
     pokemonDef.textContent = currentPokemon[10];
     pokemonSpd.textContent = currentPokemon[11];
 
+
     let typeGenerator = () => {
         if(currentPokemon[4].length == 2){
             if(currentPokemon[4][0] == "Grass" && currentPokemon[4][1] == "Poison"){
@@ -778,6 +830,55 @@ let updateUI = function() {
                 backgroundTypeRemove();
                 backgroundGround();
             }
+            if(currentPokemon[4][0] == "Rock" && currentPokemon[4][1] == "Water"){
+                removeAllTypes();
+                createRockType();
+                createWaterType();
+                backgroundTypeRemove();
+                backgroundRock();
+            }
+            if(currentPokemon[4][0] == "Water" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createWaterType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundWater();
+            }
+            if(currentPokemon[4][0] == "Rock" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createRockType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundRock();
+            }
+            if(currentPokemon[4][0] == "Ice" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createIceType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundIce();
+            }
+            if(currentPokemon[4][0] == "Electric" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createElectricType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundElectric();
+            }
+            if(currentPokemon[4][0] == "Fire" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createFireType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundFire();
+            }
+            if(currentPokemon[4][0] == "Dragon" && currentPokemon[4][1] == "Flying"){
+                removeAllTypes();
+                createDragonType();
+                createFlyingType();
+                backgroundTypeRemove();
+                backgroundDragon();
+            }
             
             
         } else if (currentPokemon[4].length == 1){
@@ -852,6 +953,12 @@ let updateUI = function() {
                 createPsychicType();
                 backgroundTypeRemove();
                 backgroundPsychic();
+            }
+            if(currentPokemon[4].includes("Dragon")){
+                removeAllTypes();
+                createDragonType();
+                backgroundTypeRemove();
+                backgroundDragon();
             }
         }
     }
