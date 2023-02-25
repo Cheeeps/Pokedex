@@ -50,6 +50,9 @@ body{
     margin: 0 auto;
     margin-bottom: 6px;
 }
+#pokemon-bg1 {
+    width: 180px;
+}
 
 #pokemon-image{
     height: 45px;
@@ -491,6 +494,10 @@ body{
         margin: 0 auto;
         margin-bottom: 6px;
     }
+    #pokemon-bg1 {
+        background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat);
+        width: 65%;
+    }
     
     #pokemon-image{
         height: 45px;
@@ -892,329 +899,8 @@ body{
     
     
   }
-  @media (max-width: 576px) {
-    body{
-        background: url(Pokemon-Green.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        height: 100vh;
-        font-size: .60em;
-    }
+  @media (max-width: 576px) {   
 
-    .container{
-        height: 350px;
-        width: 265px;
-        position: relative;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #9c1d1d;
-        border: 5px solid rgb(245, 42, 42);
-        border-radius: 60px 20% 60px 20%;
-    }
-    #pokedex{
-        display: block;
-        text-align: center;
-    }
-
-    #pokemon-number{
-        color: white;
-        text-align: center;
-        margin-top: 15px;
-        margin-bottom: 3px;
-    }
-
-    #pokemon-bg {
-        text-align: center;
-        background: url(pokemonBG10.jpg);
-        background-size: cover;
-        height: 58px;
-        width: 170px;
-        margin: 0 auto;
-        margin-bottom: 6px;
-    }
-
-    #pokemon-image{
-        height: 45px;
-        padding-top: 7px;
-    }
-
-    #pokemon-name{
-        color: white;
-        margin: 0 auto;
-    }
-
-    #pokemon-classification{
-        color: white;
-        font-size: 7px;
-    }
-
-    #pokemon-type{
-        display: flex;
-        color: white;
-        margin: 0 auto;
-        margin-top: 7px;
-        margin-bottom: 5px;
-        justify-content: space-evenly;
-    }
-
-    #pokemon-abilities span {
-        font-size: 6px ;
-        color: white;
-    }
-
-    .abilities-Bug{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #a8b820;
-        border-radius: 30px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Dark{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #705848;
-        border-radius: 30px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Dragon{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #7038f8;
-        border-radius: 30px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Electric{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #f8d038;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Fairy{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #f0b6bc;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Fighting{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #c03028;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Fire{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #f08030;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Flying{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #a890f0;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Ghost{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #705898;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Grass{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #78c850;
-        border-radius: 30px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Ground{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #e0c068;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Ice{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #98d8d8;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Normal{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #a8a878;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Poison{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #a040a0;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Psychic{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #f85888;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Rock{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #b8a038;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Steel{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #b8b8d0;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-Water{
-        height: 20px;
-        width: 165px;
-        margin: 0 auto;
-        background-color: #6890f0;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8px;
-    }
-    .abilities-default{
-        height: 30px;
-        width: 215px;
-        margin: 0 auto;
-        background-color: white;
-        border-radius: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 15px;
-    }
-
-    .pokemon-appearance{
-        color: white;
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 8px;
-    }
-    #defaultPType{
-        color: white;
-        padding: 0 20px;
-        border: 1px solid transparent;
-        border-radius: 20px;
-        background-color: transparent; 
-    }
-    #normalType{
-        padding: 0 20px;
-        border: 1px solid #a8a878;
-        border-radius: 20px;
-        background-color: #a8a878;
-    }
-    #fireType{
-        padding: 0 25px;
-        border: 1px solid #f08030;
-        border-radius: 20px;
-        background-color: #f08030;
-    }
-    #waterType{
-        padding: 0 20px;
-        border: 1px solid #6890f0;
-        border-radius: 20px;
-        background-color:#6890f0;
-    }
-    #grassType{
-        padding: 0 20px;
-        border: 1px solid #78c850;
-        border-radius: 20px;
-        background-color: #78c850; 
-    }
-    #electricType{
-        padding: 0 20px;
-        border: 1px solid #f8d038;
-        border-radius: 20px;
-        background-color: #f8d038;
-    }
-    #iceType{
-        padding: 0 25px;
-        border: 1px solid #98d8d8;
-        border-radius: 20px;
-        background-color: #98d8d8;
-    }
-    #fightingType{
-        padding: 0 20px;
-        border: 1px solid #c03028;
-        border-radius: 20px;
-        background-color: #c03028;
-    }
-    #poisonType{
-        padding: 0 20px;
-        border: 1px solid #a040a0;
         border-radius: 20px;
         background-color: #a040a0; 
     }
@@ -1335,12 +1021,11 @@ body{
         border: 1px solid #c03028;
         color: white;
         background-color: #c03028;
-        transition: .5s ease-in-out;
+        transition: .1s ease-in-out;
     }
 
   } 
   @media (min-width: 375px) and (max-width: 812px) {
-
     body{
         background: url(Pokemon-Green.jpg);
         background-size: cover;
@@ -1383,6 +1068,11 @@ body{
         width: 170px;
         margin: 0 auto;
         margin-bottom: 6px;
+    }
+
+    #pokemon-bg1 {
+        background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat);
+        width: 65%;
     }
     
     #pokemon-image{
@@ -1759,6 +1449,7 @@ body{
     
     #Prev{
         position: absolute;
+        background-color: transparent;
         border: 1px solid transparent;
         border-radius: 50%;
         padding: 5px 9px;
@@ -1769,6 +1460,7 @@ body{
     
     #Next{
         position: absolute;
+        background-color: transparent;
         border: 1px solid transparent;
         border-radius: 50%;
         padding: 5px 9px;
@@ -1778,9 +1470,10 @@ body{
     }
     
     #Prev:hover, #Next:hover{
-        border: 1px solid #98d8d8;
+        border: 1px solid #c03028;
         color: white;
-        background-color: #98d8d8;
+        background-color: #c03028;
+        transition: .1s ease-in-out;
     }
     
     
@@ -1828,6 +1521,11 @@ body{
         width: 170px;
         margin: 0 auto;
         margin-bottom: 6px;
+    }
+
+    #pokemon-bg1 {
+        background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat);
+        width: 65%;
     }
     
     #pokemon-image{
@@ -2203,6 +1901,7 @@ body{
     
     #Prev{
         position: absolute;
+        background-color: transparent;
         border: 1px solid transparent;
         border-radius: 50%;
         padding: 5px 9px;
@@ -2213,6 +1912,7 @@ body{
     
     #Next{
         position: absolute;
+        background-color: transparent;
         border: 1px solid transparent;
         border-radius: 50%;
         padding: 5px 9px;
@@ -2222,9 +1922,10 @@ body{
     }
     
     #Prev:hover, #Next:hover{
-        border: 1px solid #98d8d8;
+        border: 1px solid #c03028;
         color: white;
-        background-color: #98d8d8;
+        background-color: #c03028;
+        transition: .1s ease-in-out;
     }    
   }
   @media (min-width: 781px) {
@@ -2270,6 +1971,11 @@ body{
         width: 200px;
         margin: 0 auto;
         margin-bottom: 10px;
+    }
+
+    #pokemon-bg1 {
+        background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat);
+        width: 65%;
     }
     
     #pokemon-image{
@@ -2664,9 +2370,10 @@ body{
     }
     
     #Prev:hover, #Next:hover{
-        border: 1px solid #98d8d8;
+        border: 1px solid #c03028;
         color: white;
-        background-color: #98d8d8;
+        background-color: #c03028;
+        transition: .1s ease-in-out;
     }
   }
   @media (min-width: 992px) {
@@ -2712,6 +2419,11 @@ body{
         width: 240px;
         margin: 0 auto;
         margin-bottom: 10px;
+    }
+
+    #pokemon-bg1 {
+        background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat);
+        width: 65%;
     }
     
     #pokemon-image{
@@ -3107,9 +2819,10 @@ body{
     }
     
     #Prev:hover, #Next:hover{
-        border: 1px solid #98d8d8;
+        border: 1px solid #c03028;
         color: white;
-        background-color: #98d8d8;
+        background-color: #c03028;
+        transition: .1s ease-in-out;
     }
     
     
@@ -3117,10 +2830,12 @@ body{
   @media (min-width: 1200px) {
     body::before {
       content: "Underdevelopment resnposive style XL";
-    }  
+    }   
   }
   @media (min-width: 1400px) {
     body::before {
-      content: "Underdevelopment resnposive style XXXL";
+      content: "Underdevelopment resnposive style XXL";
     }
   }
+
+  
