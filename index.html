@@ -18,7 +18,11 @@
             <div id="pokemon-number">
                 <!-- Pokemon Number here -->Number
             </div>
-            <div id="pokemon-bg1" style="background-color: wheat; width:180px; margin: 0 auto;">
+            <div id="pokemon-type" style="margin-bottom: 5px;">
+                <div id="grassType">Grass</div>
+                <div id="poisonType">Poison</div>
+            </div>
+            <div id="pokemon-bg1" style="background:linear-gradient(to bottom right, skyblue, lightgreen, yellow, wheat); width:180px; margin: 0 auto;">
                 <img id="pokemon-image">
 
             </div>
@@ -27,19 +31,15 @@
             </div>
             <div id="pokemon-classification">
                 Seed Pokemon
-            </div>              
-            <div id="pokemon-type">
-                <div id="grassType">Grass</div>
-                <div id="poisonType">Poison</div>
-            </div>
+            </div>               
             <div id="pokemon-abilities">
                 <div style="margin: auto 50px;">
                     <span style="margin:20px;">Abilities</span>
                     <span style="margin:7px;">Hidden Abilities</span>
                 </div>
                 <div id="abilities" class="abilities-Grass">
-                    <span id="ability" style="width:50px;"></span>
-                    <span id="hidden-ability"></span>
+                    <span id="ability" style="width:50px; color:black;"></span>
+                    <span id="hidden-ability" style="color:black;"></span>
                 </div>
             </div>
             <div class="pokemon-appearance">
@@ -73,15 +73,17 @@
                         <td id="pokemon-spd">
                             <!-- Pokemon Speed Here -->50
                         </td>
-                  </tr>
+                    </tr>
+                    <!-- <tr> -->
+                        <!-- <th class="exp-style">EXP</th> -->
+                        <!-- <td id="pokemon-exp"> -->
+                        <!-- </td> -->
+                    <!-- </tr> -->
                 </table>
             </div>
-            
-        </div>
-        
+        </div>   
     </div>
-
-    <div>
+    <div class="btn">
         <button id="Prev"><i class="fa-solid fa-arrow-left-long"></i></button>
         <button id="Next"><i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
